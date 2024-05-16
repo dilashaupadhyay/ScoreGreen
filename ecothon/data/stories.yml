@@ -1,0 +1,72 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ask about environmentalism
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: environmental_definition
+  - action: respond_environmental_definition
+
+- story: ask about climate change impact
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: climate_change_impact
+  - action: respond_climate_change_impact
+
+- story: ask about renewable energy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: renewable_energy
+  - action: respond_renewable_energy
+
+- story: ask for recycling tips
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: recycling_tips
+  - action: respond_recycling_tips
+
+- story: ask about sustainable lifestyle
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sustainable_lifestyle
+  - action: respond_sustainable_lifestyle
+
+- story: ask about conservation methods
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: conservation_methods
+  - action: respond_conservation_methods

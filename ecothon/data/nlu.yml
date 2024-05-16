@@ -1,0 +1,139 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    
+- intent: environmental_definition
+  examples: |
+    - What is environmentalism?
+    - Define environmentalism
+    - What does environmentalism mean?
+    - Explain environmentalism to me
+    - Tell me about environmentalism
+
+- intent: climate_change_impact
+  examples: |
+    - How does climate change affect the environment?
+    - What are the impacts of climate change?
+    - Tell me about the effects of climate change
+    - How is climate change affecting our planet?
+    - Explain the consequences of climate change
+
+- intent: renewable_energy
+  examples: |
+    - What is renewable energy?
+    - Explain renewable energy sources
+    - Tell me about renewable energy
+    - How does renewable energy work?
+    - What are examples of renewable energy?
+
+- intent: recycling_tips
+  examples: |
+    - How can I recycle properly?
+    - Give me some recycling tips
+    - What are the best practices for recycling?
+    - How can I reduce waste through recycling?
+    - Teach me how to recycle effectively
+
+- intent: sustainable_lifestyle
+  examples: |
+    - How can I live a sustainable lifestyle?
+    - Give me tips for sustainable living
+    - What are some eco-friendly lifestyle choices?
+    - Teach me about sustainability
+    - How can I be more environmentally conscious in my daily life?
+
+- intent: conservation_methods
+  examples: |
+    - What are conservation methods?
+    - Explain conservation techniques
+    - How can we conserve natural resources?
+    - Tell me about wildlife conservation
+    - What are the strategies for environmental conservation?

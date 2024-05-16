@@ -1,0 +1,65 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - environmental_definition
+  - climate_change_impact
+  - renewable_energy
+  - recycling_tips
+  - sustainable_lifestyle
+  - conservation_methods
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_environmental_definition:
+  - text: "Environmentalism is a broad philosophy, ideology, and social movement regarding concerns for environmental conservation and improvement of the health of the environment."
+
+  utter_climate_change_impact:
+  - text: "Climate change is having profound impacts on our planet, including rising temperatures, melting ice caps, extreme weather events, and disruptions to ecosystems and biodiversity."
+
+  utter_renewable_energy:
+  - text: "Renewable energy comes from sources that are naturally replenished, such as sunlight, wind, rain, tides, waves, and geothermal heat. It's key to reducing greenhouse gas emissions and combating climate change."
+
+  utter_recycling_tips:
+  - text: "Recycling is a crucial part of waste reduction and environmental conservation. Remember to separate your recyclables, such as paper, glass, plastic, and metal, and make sure they're clean before placing them in the recycling bin."
+
+  utter_sustainable_lifestyle:
+  - text: "Adopting a sustainable lifestyle involves making conscious choices to reduce your environmental impact. This can include reducing energy and water consumption, choosing eco-friendly products, and supporting sustainable practices."
+
+  utter_conservation_methods:
+  - text: "Conservation methods aim to protect and preserve natural resources, wildlife, and ecosystems. This can involve habitat restoration, wildlife conservation efforts, protected area management, and sustainable resource management."
+
+
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
