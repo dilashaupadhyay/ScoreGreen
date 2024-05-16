@@ -1,14 +1,14 @@
 **Score Green**: 
 Welcome to Score Green, the ultimate social media platform designed exclusively for environmentalists who are passionate about making a positive impact on our planet.
 
-**Installation**
-To get started with Score Green, follow these simple steps:
+**Installation**:
 
+To get started with Score Green, follow these simple steps:
 Install Expo by running the following command in your terminal:
 npx expo start
 Expo is required to run Score Green on your device.
 
-**Features**
+**Features**:
 Score Green offers a range of features tailored to meet the needs of environmentally conscious individuals:
 
 1.Signup/Login
